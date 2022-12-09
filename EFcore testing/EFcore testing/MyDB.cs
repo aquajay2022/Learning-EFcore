@@ -5,7 +5,7 @@ namespace EFcore_testing
     public class MyDB : DbContext
     {
         public DbSet<User> Users { get; set; }
-        readonly string Path = "C:\\Users\\Dominylas\\Desktop\\SWSR\\DB\\DB.db";
+        readonly string Path = "<Database location here>";
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
